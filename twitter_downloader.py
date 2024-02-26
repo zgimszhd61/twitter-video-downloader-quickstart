@@ -38,6 +38,7 @@ def download_video(url, file_name) -> None:
     # 关闭进度条
     progress_bar.close()
     print("视频成功下载！")
+    print("视频地址"+download_path)
 
 # 定义一个函数，用于下载Twitter视频
 def download_twitter_video(url):
